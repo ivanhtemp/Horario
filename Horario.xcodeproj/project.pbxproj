@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C1C29451EEE7B4500AF0F74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1C29441EEE7B4500AF0F74 /* AppDelegate.swift */; };
+		2C1C294A1EEE7B4500AF0F74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C29481EEE7B4500AF0F74 /* Main.storyboard */; };
+		2C1C294C1EEE7B4500AF0F74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C294B1EEE7B4500AF0F74 /* Assets.xcassets */; };
+		2C1C294F1EEE7B4500AF0F74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C294D1EEE7B4500AF0F74 /* LaunchScreen.storyboard */; };
+		2CA653C31EF91B3100FDEB39 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CA653C21EF91B3100FDEB39 /* GoogleService-Info.plist */; };
+		2CA653C61EF9245D00FDEB39 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA653C51EF9245D00FDEB39 /* LoginViewController.swift */; };
+		2CBE889E1F0E1A500043E698 /* HorarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE889D1F0E1A500043E698 /* HorarioViewController.swift */; };
+		2CBE88A01F0E1FC80043E698 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE889F1F0E1FC80043E698 /* CustomCell.swift */; };
+		6FDC63BCF8A3D81EE518C690 /* Pods_Horario.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F32A589A537AF8423BEADCA /* Pods_Horario.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16DF00F5A0E663E0CA899FB9 /* Pods-Horario.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Horario.release.xcconfig"; path = "Pods/Target Support Files/Pods-Horario/Pods-Horario.release.xcconfig"; sourceTree = "<group>"; };
+		2C1C29411EEE7B4500AF0F74 /* Horario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Horario.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C1C29441EEE7B4500AF0F74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C1C29491EEE7B4500AF0F74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C1C294B1EEE7B4500AF0F74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C1C294E1EEE7B4500AF0F74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C1C29501EEE7B4500AF0F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CA653C21EF91B3100FDEB39 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2CA653C41EF91D3A00FDEB39 /* Horario.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Horario.entitlements; sourceTree = "<group>"; };
+		2CA653C51EF9245D00FDEB39 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2CBE889D1F0E1A500043E698 /* HorarioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorarioViewController.swift; sourceTree = "<group>"; };
+		2CBE889F1F0E1FC80043E698 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		2CE7E7551F0B887C0026D730 /* Horario-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Horario-Bridging-Header.h"; sourceTree = "<group>"; };
+		6FB4DDCC279EFA6AFAB7AF97 /* Pods-Horario.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Horario.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Horario/Pods-Horario.debug.xcconfig"; sourceTree = "<group>"; };
+		8F32A589A537AF8423BEADCA /* Pods_Horario.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Horario.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C1C293E1EEE7B4400AF0F74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FDC63BCF8A3D81EE518C690 /* Pods_Horario.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C1C29381EEE7B4400AF0F74 = {
+			isa = PBXGroup;
+			children = (
+				2C1C29431EEE7B4500AF0F74 /* Horario */,
+				2C1C29421EEE7B4500AF0F74 /* Products */,
+				D4A9F87737D9371EBD0338D8 /* Pods */,
+				7FF9029138864B184732EB78 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C1C29421EEE7B4500AF0F74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C1C29411EEE7B4500AF0F74 /* Horario.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C1C29431EEE7B4500AF0F74 /* Horario */ = {
+			isa = PBXGroup;
+			children = (
+				2CA653C41EF91D3A00FDEB39 /* Horario.entitlements */,
+				2CA653C21EF91B3100FDEB39 /* GoogleService-Info.plist */,
+				2C1C29441EEE7B4500AF0F74 /* AppDelegate.swift */,
+				2C1C29481EEE7B4500AF0F74 /* Main.storyboard */,
+				2C1C294B1EEE7B4500AF0F74 /* Assets.xcassets */,
+				2C1C294D1EEE7B4500AF0F74 /* LaunchScreen.storyboard */,
+				2C1C29501EEE7B4500AF0F74 /* Info.plist */,
+				2CA653C51EF9245D00FDEB39 /* LoginViewController.swift */,
+				2CE7E7551F0B887C0026D730 /* Horario-Bridging-Header.h */,
+				2CBE889D1F0E1A500043E698 /* HorarioViewController.swift */,
+				2CBE889F1F0E1FC80043E698 /* CustomCell.swift */,
+			);
+			path = Horario;
+			sourceTree = "<group>";
+		};
+		7FF9029138864B184732EB78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F32A589A537AF8423BEADCA /* Pods_Horario.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4A9F87737D9371EBD0338D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FB4DDCC279EFA6AFAB7AF97 /* Pods-Horario.debug.xcconfig */,
+				16DF00F5A0E663E0CA899FB9 /* Pods-Horario.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C1C29401EEE7B4400AF0F74 /* Horario */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C1C29531EEE7B4500AF0F74 /* Build configuration list for PBXNativeTarget "Horario" */;
+			buildPhases = (
+				1AA9FC1C27ADB02AE36DFFD8 /* [CP] Check Pods Manifest.lock */,
+				2C1C293D1EEE7B4400AF0F74 /* Sources */,
+				2C1C293E1EEE7B4400AF0F74 /* Frameworks */,
+				2C1C293F1EEE7B4400AF0F74 /* Resources */,
+				9B7DEE3547131FE861CEFFA2 /* [CP] Embed Pods Frameworks */,
+				28F465EF1A61117A066FA91F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Horario;
+			productName = Horario;
+			productReference = 2C1C29411EEE7B4500AF0F74 /* Horario.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C1C29391EEE7B4400AF0F74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Talentum;
+				TargetAttributes = {
+					2C1C29401EEE7B4400AF0F74 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = Y3C44S44N2;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 2C1C293C1EEE7B4400AF0F74 /* Build configuration list for PBXProject "Horario" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C1C29381EEE7B4400AF0F74;
+			productRefGroup = 2C1C29421EEE7B4500AF0F74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C1C29401EEE7B4400AF0F74 /* Horario */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C1C293F1EEE7B4400AF0F74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1C294F1EEE7B4500AF0F74 /* LaunchScreen.storyboard in Resources */,
+				2CA653C31EF91B3100FDEB39 /* GoogleService-Info.plist in Resources */,
+				2C1C294C1EEE7B4500AF0F74 /* Assets.xcassets in Resources */,
+				2C1C294A1EEE7B4500AF0F74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AA9FC1C27ADB02AE36DFFD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		28F465EF1A61117A066FA91F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Horario/Pods-Horario-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B7DEE3547131FE861CEFFA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Horario/Pods-Horario-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C1C293D1EEE7B4400AF0F74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA653C61EF9245D00FDEB39 /* LoginViewController.swift in Sources */,
+				2C1C29451EEE7B4500AF0F74 /* AppDelegate.swift in Sources */,
+				2CBE88A01F0E1FC80043E698 /* CustomCell.swift in Sources */,
+				2CBE889E1F0E1A500043E698 /* HorarioViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C1C29481EEE7B4500AF0F74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C1C29491EEE7B4500AF0F74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C1C294D1EEE7B4500AF0F74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C1C294E1EEE7B4500AF0F74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C1C29511EEE7B4500AF0F74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C1C29521EEE7B4500AF0F74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C1C29541EEE7B4500AF0F74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB4DDCC279EFA6AFAB7AF97 /* Pods-Horario.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Horario/Horario.entitlements;
+				DEVELOPMENT_TEAM = Y3C44S44N2;
+				INFOPLIST_FILE = Horario/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.upm.etsisi.Horario;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Horario/Horario-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2C1C29551EEE7B4500AF0F74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16DF00F5A0E663E0CA899FB9 /* Pods-Horario.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Horario/Horario.entitlements;
+				DEVELOPMENT_TEAM = Y3C44S44N2;
+				INFOPLIST_FILE = Horario/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.upm.etsisi.Horario;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Horario/Horario-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C1C293C1EEE7B4400AF0F74 /* Build configuration list for PBXProject "Horario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C1C29511EEE7B4500AF0F74 /* Debug */,
+				2C1C29521EEE7B4500AF0F74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C1C29531EEE7B4500AF0F74 /* Build configuration list for PBXNativeTarget "Horario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C1C29541EEE7B4500AF0F74 /* Debug */,
+				2C1C29551EEE7B4500AF0F74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C1C29391EEE7B4400AF0F74 /* Project object */;
+}
